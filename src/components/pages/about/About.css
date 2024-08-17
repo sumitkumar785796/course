@@ -1,0 +1,97 @@
+.section {
+    padding: 4rem 0;
+  }
+  
+  .about-banner {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .img-holder {
+    width: 100%;
+    height: auto;
+  }
+  
+  .amit-img-cover {
+    width: 100%;
+    height: auto;
+  }
+  
+  .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+  
+  .about-shape-1 {
+    width: 360px;
+    height: 360px;
+    top: -1%;
+    left: -15%;
+  }
+  
+  .about-shape-2 {
+    width: 290px;
+    height: 250px;
+    top: 41%;
+    left: -5%;
+  }
+  
+  .about-shape-3 {
+    width: 722px;
+    height: 600px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about-shape-4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .about-content {
+    padding: 1rem;
+  }
+  
+  .section-title, .section-text {
+    margin-bottom: 1rem;
+  }
+  
+  .about-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .about-item ion-icon {
+    margin-right: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .about-banner {
+      margin-bottom: 1rem;
+    }
+    
+    .about-shape-1, .about-shape-2, .about-shape-3 {
+      width: 80%;
+      height: auto;
+    }
+  
+    .about-shape-4 {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
