@@ -119,7 +119,7 @@ const Footer = () => {
       Copyright &copy; 2024-25 All Rights Reserved &nbsp; | &nbsp; This site is designed and developed by &nbsp; 
         <a href="#" className="copyright-link">&nbsp;&nbsp;Thakur Rajat Tomar &nbsp;&nbsp;</a>
         &
-        <a href="https://cvsumitkumarcoder.onrender.com/" target='_blank' className="copyright-link">&nbsp;&nbsp; Sumit Kumar</a>
+        <a href="#" target='_blank' className="copyright-link">&nbsp;&nbsp; Sumit Kumar</a>
       </p>
     </div>
   </div>

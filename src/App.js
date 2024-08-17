@@ -8,6 +8,7 @@ import Signin from './components/auth/Signin';
 import CourseDetails from './components/pages/course/CourseDetails';
 import BlogDetails from './components/pages/blog/BlogDetails';
 import Signup from './components/auth/Signup';
+import OtpVerification from './components/auth/OtpVerification';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='course/:id' element={<CourseDetails />} />
           <Route path='signin' element={<Signin />} />
           <Route path='signup' element={<Signup />} />
+          <Route path='otp' element={<OtpVerification />} />
           <Route path="*" element={<Main />} />
         </Route>
       </Routes>

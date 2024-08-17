@@ -18,7 +18,7 @@ const Signup = () => {
           <div className="col-lg-12">
             <br /><br /><br /><br />
             <br /><br /><br /><br />
-            <h1 style={{ color: "white", fontWeight: "1000", textAlign: "center" }} >Login Authentication </h1>
+            <h1 style={{ color: "white", fontWeight: "1000", textAlign: "center" }} >Signup Authentication </h1>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Signup = () => {
             <button type="submit" id="register-button" className="btn-submit">Register</button>
         </div>
         <div className="form-footer">
-            <p>Already have an account? <Link to="/signin">Sign in</Link></p>
+            <p>Already have an account? <Link to="/signin">Log In</Link></p>
         </div>
     </form>
 </div>

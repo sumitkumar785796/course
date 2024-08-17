@@ -17,14 +17,14 @@ const Signin = () => {
             <div className="col-lg-12">
               <br /><br /><br /><br />
               <br /><br /><br /><br />
-              <h1 style={{ color: "white", fontWeight: "1000", textAlign: "center" }} >Login Authentication </h1>
+              <h1 style={{ color: "white", fontWeight: "1000", textAlign: "center" }} >LogIn Authentication </h1>
             </div>
           </div>
         </div>
       </section>
       <div id="login-container">
       <form id="login-form">
-          <h2 className="form-heading">Login</h2>
+          <h2 className="form-heading">LogIn</h2>
           <div className="form-group">
               <label htmlFor="username">Email</label>
               <input type="email" id="email" placeholder='Enter Email id' className="form-input" required />

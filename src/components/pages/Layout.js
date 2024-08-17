@@ -60,22 +60,17 @@ const Layout = () => {
                 <NavLink to="/course" className="navbar-link" data-nav-link>Courses</NavLink>
               </li>
               <li className="navbar-item">
-                <NavLink to="/blog" className="navbar-link" data-nav-link>Blog</NavLink>
-              </li>
-              <li className="navbar-item">
-                <NavLink to="/signin" className="navbar-link" data-nav-link>Login/Registration</NavLink>
-                
+                <NavLink to="/blog" className="navbar-link" data-nav-link>Current Affaires</NavLink>
               </li>
             </ul>
           </nav>
           <div className="header-actions">
-            <button className="header-action-btn" aria-label="cart" title="Cart">
-              <ion-icon name="cart-outline" aria-hidden="true" />
-              <span className="btn-badge">0</span>
-            </button>
+            <NavLink to="/signin" className="navbar-link" data-nav-link>
+            <img src="./img/log-in.png" alt="login" style={{width:"100%",height:"75px"}}/>
+            </NavLink>
             <a href="#" className="btn has-before">
               <span className="span">
-              Live Classes
+                Live Classes
               </span>
               <ion-icon name="arrow-forward-outline" aria-hidden="true" />
             </a>
@@ -95,8 +90,8 @@ const Layout = () => {
           />
         </div>
       </header>
-      <Outlet/>
-      <Footer/>
+      <Outlet />
+      <Footer />
     </>
   );
 };
