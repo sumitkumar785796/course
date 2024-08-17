@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const Slider = () => {
     return (
         <>
@@ -14,10 +14,10 @@ const Slider = () => {
                         <p className="hero-text">
                             Amit IAS offers you to learn from an Ex-bureaucrat &amp; retired bureaucrats
                         </p>
-                        <a href="#" className="btn btn-primary">
+                        <Link to="/course" className="btn btn-primary">
                             <span className="span">Find courses</span>
                             <ion-icon name="arrow-forward-outline" aria-hidden="true" />
-                        </a>
+                        </Link>
                     </div>
                     <figure className="hero-banner">
                         <div className="img-holder one" style={{ width: "270px", height: "300px" }}>
