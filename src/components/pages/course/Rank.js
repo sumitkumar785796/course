@@ -29,7 +29,7 @@ const Rank = () => {
               </div>
             </li>
             <li>
-              <div className="stats-card" style={{color: '#effa23',backgroundColor:"#fafccc"}}>
+              <div className="stats-card" style={{color: '#b1ba04',backgroundColor:"#f2fac0"}}>
                 <h3 className="card-title">354+</h3>
                 <p className="card-text">Top Instructors</p>
               </div>
